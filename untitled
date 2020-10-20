@@ -1,0 +1,24 @@
+
+
+2020-10-06 11:38:25,712 [core_taf.py:379][WARNING]: Exception occurred in process_command callback: 'TestApp' object has no attribute 'setup_cfg'
+
+
+
+2020-10-06 11:38:25,711 [network_adapter.py:98][DEBUG]: _on_command
+2020-10-06 11:38:25,711 [model_manager.py:166][DEBUG]:  app_data.frame_control[5] is global: False
+2020-10-06 11:38:25,711 [model_manager.py:168][DEBUG]: app_data.model_id: 0xff1 app_data.command_id: 0x15
+2020-10-06 11:38:25,712 [model_manager.py:180][DEBUG]:  app_data.payload: b'\x91\xcdO\xd7'
+2020-10-06 11:38:25,712 [model_manager.py:182][DEBUG]:  type: <class 'tuple'> unpack app_data.payload:                     (21, b'\x91\xc4\x04\x91\xcdO\xd7')
+2020-10-06 11:38:25,712 [core_taf.py:379][WARNING]: Exception occurred in process_command callback: 'TestApp' object has no attribute 'setup_cfg'
+		2020-10-06 11:38:26,211 [core_taf.py:431][DEBUG]: Discovery node exception: 'TestApp' object has no attribute 'models_id'
+2020-10-06 11:38:28,127 [model_manager.py:67][WARNING]: No alive response received from network. Retrying alive...
+2020-10-06 11:38:28,127 [model_manager.py:70][INFO]: NetworkManager connected
+
+
+
+
+2020-10-06 11:53:43,094 [model_manager.py:182][DEBUG]:  type: <class 'tuple'> unpack app_data.payload:                     (21, b'\x91\xc4\x04\x91\xcdO\xd7')
+2020-10-06 11:53:43,095 [core_taf.py:204][WARNING]: There is no handler for '_process_command' callback
+2020-10-06 11:53:43,277 [core_taf.py:431][DEBUG]: Discovery node exception: 'TestApp' object has no attribute 'models_id'
+2020-10-06 11:53:43,277 [core_taf.py:218][INFO]: New node added from network: network_wp Node id: 4157965008
+2020-10-06 11:53:43,778 [core_taf.py:431][DEBUG]: Discovery node exception: 'TestApp' object has no attribute 'models_id'
